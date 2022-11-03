@@ -16,6 +16,7 @@ function playerChoice(){
 // let playerSelect = playerChoice();//Commented out for running series
 // let computerSelect = getComputerChoice();
 
+
 function playRound(playerSelect, computerSelect){
     round++;
     if(playerSelect == "Rock" && computerSelect == "Scissors"){
@@ -40,11 +41,7 @@ function playRound(playerSelect, computerSelect){
 }
 // playRound(playerSelect, computerSelect);
 function game(){
-    for(let i = 0; i < 5; i++){
-        let playerSelect = playerChoice();
-        let computerSelect = getComputerChoice();
-        playRound(playerSelect, computerSelect);
-    }
+    
     console.log("Final result:\n Player has: " +playerWins+ " and computer has: " + computerWins);
     if(computerWins > playerWins){
         console.log("Computer wins the series");
