@@ -32,11 +32,13 @@ body{
     font-size: 32px;
 }
 .scoreboard{
-    font-size: 18px;
-    display: inline-flex;
-    position: relative;
-    top: -145px;
-    right: -510px;
+    color: cyan;
+    font-weight: bold;
+    font-size: 24px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 15px;
+    z-index: 2;
 }
 .game-menu{
     flex-direction: row;
